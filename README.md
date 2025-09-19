@@ -26,19 +26,21 @@ weather-pipeline/
 ## Configuración
 1. Clonar este repositorio.
 2. Crear un archivo `.env` en la raíz con las variables:
+```
 API_KEY=tu_api_key
 DB_USER=tu_usuario
 DB_PASSWORD=tu_contraseña
 DB_HOST=localhost
 DB_PORT=5432
 DB_NAME=nombre_bd
+```
 
-3. Crear entorno virtual e instalar dependencias:
+4. Crear entorno virtual e instalar dependencias:
 python -m venv venv
 venv\Scripts\activate # Windows
 pip install -r requirements.txt
 
-4. Ejecutar el pipeline:
+5. Ejecutar el pipeline:
 python pipeline.py
 
 ## Salida
