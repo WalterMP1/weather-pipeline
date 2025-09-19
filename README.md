@@ -3,6 +3,7 @@
 ETL pipeline en Python para extraer datos del clima desde la API de OpenWeatherMap, transformarlos y cargarlos en PostgreSQL.
 
 ## Estructura
+'''
 weather-pipeline/
 │ pipeline.py
 │ extract.py
@@ -13,6 +14,7 @@ weather-pipeline/
 │ requirements.txt
 │ .gitignore
 └── logs/
+'''
 
 ## Tecnologías
 - Python
