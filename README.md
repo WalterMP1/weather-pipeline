@@ -36,12 +36,14 @@ DB_NAME=nombre_bd
 ```
 
 4. Crear entorno virtual e instalar dependencias:
+```
 python -m venv venv
 venv\Scripts\activate # Windows
 pip install -r requirements.txt
+```
 
-5. Ejecutar el pipeline:
-python pipeline.py
+6. Ejecutar el pipeline:
+`python pipeline.py`
 
 ## Salida
 - Los datos se guardan en la tabla `weather_readings` de la base de datos PostgreSQL.
